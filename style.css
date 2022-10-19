@@ -63,7 +63,7 @@
 }
 
 .box li:not(:last-child) {
-	margin-bottom: 3px;
+	margin-bottom: 40px;
 }
 
 .background {
