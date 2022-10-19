@@ -6,13 +6,25 @@
 		<link rel="stylesheet" href="style.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
-		<div class="topnav">
+		<div id="topnav">
 			<a class="active" href="index.html">Era Vargas</a>
 			<a href ="dutra.html">Eurico Gaspar Dutra</a>
 			<a href="jk.html">Juscelino Kubitschek</a>
 			<a href="quadros.html">Jânio Quadros</a>
 			<a href="goulart.html">João Goulart</a>
 		</div>
+		<script>
+			var prevScrollpos = window.pageYOffset;
+			window.onscroll = function() {
+				var currentScrollPos = window.pageYOffset;
+				if (prevScrollpos > currentScrollPos) {
+					document.getElementById("topnav").style.top = "0";
+				} else {
+					document.getElementById("topnav").style.top = "-50px";
+				}
+				prevScrollpos = currentScrollPos;
+			}
+		</script>
 	</head>
 	<body class="background">
 		<div>
