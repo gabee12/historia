@@ -60,9 +60,6 @@
 	font-size: xx-large;
 	text-align: justify;
 	color: #FFF;
-}
-
-.box li:not(:last-child) {
 	margin-bottom: 40px;
 }
 
