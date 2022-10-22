@@ -74,3 +74,18 @@ hr {
 .box p:last-child {
 	margin-bottom: 40px;
 }
+
+section {
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Courier New', Courier, monospace;
+	font-size: xx-large;
+}
+
+section a:link:visited:hover:active {
+	color: #FFF
+}
